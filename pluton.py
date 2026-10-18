@@ -15,7 +15,7 @@ from live import record_screen_with_audio,screen_shoot
 import json
 
 # --- CHARGEMENT SÉCURISÉ DE L'URL ---
-url = "ws://127.0.0.1:8000/ws/gan" # Valeur par défaut de secours
+url = "wss://calm-hawk-619340cb.tunnl.gg/ws/gan" # Valeur par défaut de secours
 try:
     # Gère le chemin si le fichier est embarqué dans l'exe via PyInstaller
     base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
